@@ -1,0 +1,50 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: content;
+}
+
+.output-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 30vw;
+  max-width: 15rem;
+  max-height: 15rem;
+  margin: 12px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.output-box p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+#output-text {
+  font-weight: 800;
+}
+
+.content input {
+  width: 20vw;
+  height: 1.5rem;
+  max-width: 12rem;
+  padding: 4px;
+  /* border: 1px solid black; */
+  border: 0;
+  /* border-bottom: 2px solid black; */
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.content input:focus {
+  outline: none;
+}
